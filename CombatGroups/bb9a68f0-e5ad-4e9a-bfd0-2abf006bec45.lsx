@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" time="1528317983" />
+    <version major="3" minor="1" revision="8" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="CombatStart" value="" type="23" />
+            <attribute id="CustomScripting" value="" type="23" />
+            <attribute id="Description" value="" type="23" />
+            <attribute id="Events" value="" type="23" />
+            <attribute id="LevelName" value="" type="23" />
+            <attribute id="Name" value="ElectroOozes" type="23" />
+            <attribute id="Notes" value="" type="23" />
+            <attribute id="Scripter" value="" type="23" />
+            <attribute id="Situation" value="" type="23" />
+            <attribute id="UUID" value="bb9a68f0-e5ad-4e9a-bfd0-2abf006bec45" type="23" />
+        </node>
+    </region>
+</save>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="d3bd35ae-af62-42a2-b365-7091f909246b">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DemonDogFireBreath" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Flamebreath" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Angle" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="23" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Creature_Dragon_Prepare_Fire_01_Dummy:Dummy_CastFX" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="castsurface" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_Root_01:Dummy_Root;RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_01_Dummy_Fire:Dummy_CastFX:cast;RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_01_Fire:Dummy_Root:cast;RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_Root_01_End:Dummy_Root:castend" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="BackStart" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="FrontOffset" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Demon Dog Breath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FireDogBreath" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Flamebreath" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Angle" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="23" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Creature_Dragon_Prepare_Fire_01_Dummy:Dummy_CastFX" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="castsurface" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_Root_01:Dummy_Root;RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_01_Dummy_Fire:Dummy_CastFX:cast;RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_01_Fire:Dummy_Root:cast;RS3_FX_Char_Creature_Dragon_Cast_DragonBreath_Root_01_End:Dummy_Root:castend" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="BackStart" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="FrontOffset" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Demon Dog Breath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="EnemyFlamebreath" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="WET,100,5;Douse;SUFFOCATING,100,2;MUTED,100,1" />
+        <field name="Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Angle" type="IntegerStatObjectFieldDefinition" value="45" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Death Type" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Surface Type" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Earth_OozeSpray" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Rage Tsunami" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_oozespray_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_oozespray_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Prepare_Water_Base_01" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="cast_target_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Water_Cast_Ground_01:root:cast;RS3_FX_Char_Animals_Frog_B_Cone_Water_Projectile_01:Dummy_CastFX:cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Tsunami Breath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="EnemyCharm" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SilencingStare" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="CHARMED,100,2" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lure of the Eight-legged Wonder" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="|Charms enemies in a cone in front of you.|" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Animals_Spider_A_Cone_EnemyCharm_Prepare_01:Dummy_StatusFX" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Char_Animals_Spider_A_Cone_EnemyCharm_Cast_01:Dummy_CastFX:cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
